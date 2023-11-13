@@ -1,0 +1,77 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+:root {
+    --cor1: #fb3c03;
+    --font1: 'Bebas Neue', sans-serif;
+    --font2: 'Roboto', sans-serif;
+}
+
+main .tit {
+    font-family: var(--font1);
+    text-align: center;
+    font-size: 38px;
+    font-weight: bolder;
+}
+
+main .loc {
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+
+main #principal {
+    font-family: var(--font1);
+    font-size: 24px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+main .info {
+    margin-left: 32%;
+    width: 55%;
+}
+
+main .nomes {
+    font-size: 14px;
+    font-family: var(--font2);
+}
+
+main .nomes > img {
+    width: 18px;
+}
+
+main .nomes > span {
+    color: var(--cor1);
+    font-weight: bold;
+    font-size: 10px;
+}
+
+
+main .icon {
+    width: 25px;
+}
+
+form label {
+    font-size: 14px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+form input {
+    width: 100%;
+    height: 40px;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+textarea {
+    border-radius: 15px;
+}
+
+main article form button {
+    padding: 5px 10px;
+    font-weight: normal;
+    border-radius: 15px;
+}

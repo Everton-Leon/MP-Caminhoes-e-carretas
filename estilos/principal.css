@@ -1,0 +1,200 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root {
+    --cor1: #fb3c03;
+    --font1: 'Bebas Neue', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    height: 210px;
+}
+
+header > div#faixa-laranja{
+    height: 15px;
+    margin-top: 1px;
+    background-color: var(--cor1);
+}
+
+
+header section.row div .gif {
+    display: block;
+    margin-left: -60px;
+}
+
+header article {
+    color: white;
+    width: 80%;
+    padding-top: 41px;
+    padding-left: 4px;
+    font-family: var(--font1);
+    font-weight: bold;
+    font-size: 16px;
+}
+
+header p.contato {
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+header a.numero {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: 36px;
+}
+
+header .col-md-2 {
+    padding-left: 44px;
+    padding-top: 10px;
+}
+
+header .col-2 a{
+    padding-left: 4px;
+}
+
+.img-fluid{
+    padding-top: 30px;
+    padding-left: 5px;
+}
+
+nav {
+    position: absolute;
+    left: 36%;
+    top: 190px;
+    z-index: 1;
+}
+
+nav a {
+    color: white;
+    font-family: var(--font1);
+    font-size: 20px;
+    padding: 12px 15px;
+    background-color: #555555;
+    border-radius: 0px 20px 0px 0px;
+    margin-right: 6px;
+    transition: background 0.3s;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: var(--cor1);
+    transition-timing-function: ease-in;
+}
+
+main {
+    margin-top: 50px;
+}
+
+main .row {
+    margin-bottom: 50px;
+}
+
+main figure {
+    overflow: hidden;
+}
+
+main figure img {
+    width: 100%; 
+    border: 5px solid #bbbbbb;
+    -webkit-transition: -webkit-transform .5s ease;
+   transition: transform .5s ease;
+}
+
+main figure img:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.1);
+   transform: scale(1.5);
+}
+
+.titulo {
+    text-align: center;
+    border-bottom: 5px solid black;
+}
+
+.texto1, .texto2 {
+    font-family: var(--font1);
+    font-size: 22px;
+}
+
+.texto1 {
+    margin-bottom: -10px;
+}
+
+.texto2 {
+    color: var(--cor1);
+    margin-bottom: -5px;
+}
+
+.descricao {
+    border: 1px dashed gray;
+    margin-top: 30px;
+}
+
+.descricao span {
+    font-family: var(--font1);
+    font-size: 22px;
+    color: var(--cor1);
+    padding-left: 30px;
+}
+
+.descricao p {
+    margin-bottom: 5px;
+}
+
+.btn {
+    text-align: center;
+    width: 100%;
+    margin-top: 7px;
+}
+
+main article button {
+    background-color: var(--cor1);
+    font-family: var(--font1);
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    transition: background 1s;
+}
+
+main article button:hover {
+    cursor: pointer;
+    background-color: black;
+    color: var(--cor1);
+    border: 1px solid var(--cor1);
+}
+
+footer {
+    background-color: black;
+
+}
+
+footer section div {
+    height: 173px;
+}
+
+footer section figure {
+    margin-left: -90px;
+}
+
+
+footer section p {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+}
+
+footer > div#faixa-laranja{
+    height: 15px;
+    background-color: var(--cor1);
+}
